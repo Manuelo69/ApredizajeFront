@@ -5,7 +5,12 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <nav className="flex w-9 h-screen bg-my-gray m-0 flex-col"></nav>
+      <main className="flex h-screen w-96 bg-my-gray m-0 flex-col"></main>
+    </>
+  );
 }
 
 export default App;
