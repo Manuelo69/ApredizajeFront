@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <nav className="flex w-12 h-screen bg-my-gray m-0 flex-col"></nav>
-      <main className="flex h-screen w-px-2000 bg-gray-500 m-0 flex-col"></main>
+      <main className="flex h-screen flex-1 w-screen flex-col"></main>
     </>
   );
 }
