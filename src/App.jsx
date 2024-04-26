@@ -7,8 +7,8 @@ import "./App.css";
 function App() {
   return (
     <>
-      <nav className="flex w-9 h-screen bg-my-gray m-0 flex-col"></nav>
-      <main className="flex h-screen w-96 bg-my-gray m-0 flex-col"></main>
+      <nav className="flex w-12 h-screen bg-my-gray m-0 flex-col"></nav>
+      <main className="flex h-screen w-px-2000 bg-gray-500 m-0 flex-col"></main>
     </>
   );
 }
