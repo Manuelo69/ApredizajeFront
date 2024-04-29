@@ -11,9 +11,9 @@ function App() {
     <>
       <BarraNavegacion />
       <main className="flex h-screen flex-1 w-screen flex-col">
-        <div className="mt-2">
+        <footer className="mt-2">
           <Buscador />
-        </div>
+        </footer>
       </main>
     </>
   );
