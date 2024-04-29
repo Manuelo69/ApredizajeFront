@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import alonsoLogo from "./assets/alonso.jpg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import BarraNavegacion from "./components/BarraNavegacion/BarraNavegacion";
@@ -16,6 +16,7 @@ function App() {
           <Buscador />
           <div className="flex flex-row">
             <Notificationes NumNotificaciones={4} />
+            <img src={alonsoLogo} alt="alonso-logo" className="w-16 h-16" />
           </div>
         </footer>
       </main>
