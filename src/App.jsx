@@ -4,12 +4,17 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import BarraNavegacion from "./components/BarraNavegacion/BarraNavegacion";
+import Buscador from "./components/Buscador/Buscador";
 
 function App() {
   return (
     <>
       <BarraNavegacion />
-      <main className="flex h-screen flex-1 w-screen flex-col"></main>
+      <main className="flex h-screen flex-1 w-screen flex-col">
+        <div>
+          <Buscador />
+        </div>
+      </main>
     </>
   );
 }
