@@ -12,9 +12,9 @@ function App() {
     <>
       <BarraNavegacion />
       <main className="flex h-screen flex-1 w-screen flex-col">
-        <footer className="mt-2">
+        <footer className="mt-2 flex flex-row justify-between">
           <Buscador />
-          <div>
+          <div className="flex flex-row">
             <Notificationes NumNotificaciones={4} />
           </div>
         </footer>
