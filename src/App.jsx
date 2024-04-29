@@ -14,9 +14,13 @@ function App() {
       <main className="flex h-screen flex-1 w-screen flex-col">
         <footer className="mt-2 flex flex-row justify-between">
           <Buscador />
-          <div className="flex flex-row">
+          <div className="flex flex-row gap-2 mr-3">
             <Notificationes NumNotificaciones={4} />
-            <img src={alonsoLogo} alt="alonso-logo" className="w-16 h-16" />
+            <img
+              src={alonsoLogo}
+              alt="alonso-logo"
+              className="w-20 h-20 border-2 border-my-gray rounded-full"
+            />
           </div>
         </footer>
       </main>
