@@ -8,10 +8,10 @@ const SelectorFecha = () => {
         />
       </button>
       <div className="textoCalendario">
-        <p className="">date</p>
-        <p className="">28 Jan - 29 Jan 2023</p>
+        <p>date</p>
+        <p>28 Jan - 29 Jan 2023</p>
       </div>
-      <button className="selectorRow bg-white">
+      <button className="bg-white">
         <img
           src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-rounded.svg"
           alt="arrow-down-01"
