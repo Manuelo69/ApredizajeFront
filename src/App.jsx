@@ -5,6 +5,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import BarraNavegacion from "./components/BarraNavegacion/BarraNavegacion";
 import Buscador from "./components/Buscador/Buscador";
+import Notificationes from "./components/Notificaciones/Notificaciones";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       <main className="flex h-screen flex-1 w-screen flex-col">
         <footer className="mt-2">
           <Buscador />
+          <div>
+            <Notificationes NumNotificaciones={4} />
+          </div>
         </footer>
       </main>
     </>
