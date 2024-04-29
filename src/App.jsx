@@ -8,6 +8,7 @@ import Buscador from "./components/Buscador/Buscador";
 import Notificationes from "./components/Notificaciones/Notificaciones";
 import SelectorFecha from "./components/SelectorFecha/SelectorFecha";
 import Funnal from "./components/Funnal/Funnal";
+import Exportar from "./components/Exportar/Exportar";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <div className="flex flex-row h-20 gap-2">
             <SelectorFecha />
             <Funnal />
+            <Exportar />
           </div>
         </div>
       </main>
