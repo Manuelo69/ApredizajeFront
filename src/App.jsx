@@ -23,6 +23,9 @@ function App() {
             />
           </div>
         </footer>
+        <div className="title flex flex-row h-60 items-center">
+          <p className="text-text-xl w-80">YOUR SALES ANALYSIS</p>
+        </div>
       </main>
     </>
   );

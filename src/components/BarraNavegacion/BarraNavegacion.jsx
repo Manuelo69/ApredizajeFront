@@ -1,6 +1,6 @@
 const BarraNavegacion = () => {
   return (
-    <nav className="flex w-20 h-screen bg-my-gray m-0 flex-col justify-evenly items-center">
+    <nav className="flex w-20 h-screen bg-light-gray flex-col justify-evenly items-center">
       <div>
         <img
           className="w-12 "
