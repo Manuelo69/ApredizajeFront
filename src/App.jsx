@@ -7,6 +7,7 @@ import BarraNavegacion from "./components/BarraNavegacion/BarraNavegacion";
 import Buscador from "./components/Buscador/Buscador";
 import Notificationes from "./components/Notificaciones/Notificaciones";
 import SelectorFecha from "./components/SelectorFecha/SelectorFecha";
+import Funnal from "./components/Funnal/Funnal";
 
 function App() {
   return (
@@ -26,7 +27,10 @@ function App() {
         </footer>
         <div className="title flex flex-row h-40 items-center justify-between">
           <p className="text-text-xl w-80 font-bold">YOUR SALES ANALYSIS</p>
-          <SelectorFecha />
+          <div className="flex flex-row h-20 gap-2">
+            <SelectorFecha />
+            <Funnal />
+          </div>
         </div>
       </main>
     </>
