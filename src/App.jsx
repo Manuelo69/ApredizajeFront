@@ -11,6 +11,7 @@ import Funnal from "./components/Funnal/Funnal";
 import Exportar from "./components/Exportar/Exportar";
 import Card from "./components/Ui/Card";
 import SalesFunnel from "./components/SalesFunnel/SalesFunnel";
+import SocialOrders from "./components/SocialOrders/SocialOrders";
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
             titulo={`Sales Funnel`}
             subtitulo={`Total view per month`}
           />
+          <SocialOrders titulo={`Orders`} subtitulo={`Based on social media`} />
         </div>
       </main>
     </>
