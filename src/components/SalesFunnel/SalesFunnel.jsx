@@ -3,7 +3,7 @@ import Views from "../Ui/Views";
 const SalesFunnel = ({ titulo, subtitulo }) => {
   return (
     <div className="flex flex-col  bg-light-gray  rounded-3xl p-3 w-px-900 max-h-96">
-      <div className="flex flex-row justify-between items-center h-40">
+      <div className="flex flex-row justify-between items-center h-28">
         <div className="flex flex-col items-start">
           <p className="text-text-md">{titulo}</p>
           <p className="text-text-xs">{subtitulo}</p>
