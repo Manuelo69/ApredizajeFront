@@ -52,6 +52,7 @@ function App() {
             textoPrecio={"6k will avaliable soon"}
           />
         </div>
+        <div className="flex flex-row"></div>
       </main>
     </>
   );
