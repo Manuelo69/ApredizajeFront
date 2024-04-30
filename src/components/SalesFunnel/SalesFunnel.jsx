@@ -1,15 +1,15 @@
 /* eslint-disable react/prop-types */
 const SalesFunnel = ({ titulo, subtitulo }) => {
   return (
-    <div className="flex flex-col  bg-light-gray  rounded-3xl p-3 w-px-900">
-      <div className="parrafoAlto parrafo2">
+    <div className="flex flex-col  bg-light-gray  rounded-3xl p-3 w-px-900 h-96">
+      <div className="flex flex-row justify-between">
         <div className="textoIzquierdo">
           <p>Sales Funnel</p>
           <p>Total view per month</p>
         </div>
-        <div className="centrar">
-          <button className="mes">Monthly</button>
-          <button>
+        <div className="flex flex-row gap-1 h-10">
+          <button className="w-20 p-2">Monthly</button>
+          <button className="p-2">
             <img
               src="https://cdn.hugeicons.com/icons/dashboard-square-remove-stroke-rounded.svg"
               alt="dashboard-square-remove"
