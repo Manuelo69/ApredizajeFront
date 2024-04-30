@@ -21,10 +21,10 @@ const SalesFunnel = ({ titulo, subtitulo }) => {
       <div className="flex flex-row justify-around w-full gap-3 h-96 items-end">
         <Views altura={200} cantidad={"24k"} />
         <Views altura={100} cantidad={"35k"} />
-        <Views />
-        <Views />
-        <Views />
-        <Views />
+        <Views altura={100} cantidad={"35k"} />
+        <Views altura={100} cantidad={"35k"} />
+        <Views altura={100} cantidad={"35k"} />
+        <Views altura={100} cantidad={"35k"} />
       </div>
       <div className="flex flex-row justify-around text-center w-full gap-1">
         <p>Mon</p>
