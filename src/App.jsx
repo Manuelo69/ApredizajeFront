@@ -54,7 +54,10 @@ function App() {
           />
         </div>
         <div className="flex flex-row gap-2">
-          <SalesFunnel />
+          <SalesFunnel
+            titulo={`Sales Funnel`}
+            subtitulo={`Total view per month`}
+          />
         </div>
       </main>
     </>

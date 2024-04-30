@@ -4,8 +4,8 @@ const SalesFunnel = ({ titulo, subtitulo }) => {
     <div className="flex flex-col  bg-light-gray  rounded-3xl p-3 w-px-900 h-96">
       <div className="flex flex-row justify-between ">
         <div className="flex flex-col items-start">
-          <p className="text-text-md">Sales Funnel</p>
-          <p className="text-text-xs">Total view per month</p>
+          <p className="text-text-md">{titulo}</p>
+          <p className="text-text-xs">{subtitulo}</p>
         </div>
         <div className="flex flex-row gap-1 h-10">
           <button className="w-20 p-4 bg-white">Monthly</button>
@@ -19,13 +19,24 @@ const SalesFunnel = ({ titulo, subtitulo }) => {
       </div>
       <div className="flex flex-row justify-between w-96">
         <div className="barra b1">
+          {}
           <div className="cant">24K</div>
         </div>
-        <div className="barra b2"></div>
-        <div className="barra b3"></div>
-        <div className="barra b4"></div>
-        <div className="barra b5"></div>
-        <div className="barra b6"></div>
+        <div className="barra b2">
+          <div className="cant">24K</div>
+        </div>
+        <div className="barra b3">
+          <div className="cant">24K</div>
+        </div>
+        <div className="barra b4">
+          <div className="cant">24K</div>
+        </div>
+        <div className="barra b5">
+          <div className="cant">24K</div>
+        </div>
+        <div className="barra b6">
+          <div className="cant">24K</div>
+        </div>
       </div>
       <div className="flex flex-row justify-between">
         <p>Mon</p>
