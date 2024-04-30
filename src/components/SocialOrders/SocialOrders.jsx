@@ -19,7 +19,10 @@ const SocialOrders = ({ titulo, subtitulo }) => {
           </button>
         </div>
       </div>
-      <div className="flex flex-row justify-around w-full gap-3 h-96 items-end">
+      <div className="flex flex-col justify-around w-full gap-3 h-96 items-end">
+        <Media SocialMedia={"Whatsapp"} />
+        <Media SocialMedia={"Whatsapp"} />
+        <Media SocialMedia={"Whatsapp"} />
         <Media SocialMedia={"Whatsapp"} />
       </div>
     </div>
