@@ -5,7 +5,7 @@ const views = ({ cantidad, altura }) => {
   const [clicked, setClicked] = useState(false);
   const containerStyle = {
     height: altura || 0,
-    backgroundColor: clicked ? "#5ee85b" : "gray",
+    backgroundColor: clicked ? "#5ee85b" : "#e2e2e2",
   };
 
   const handleClick = () => {
