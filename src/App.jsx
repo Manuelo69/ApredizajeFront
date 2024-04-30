@@ -9,6 +9,7 @@ import Notificationes from "./components/Notificaciones/Notificaciones";
 import SelectorFecha from "./components/SelectorFecha/SelectorFecha";
 import Funnal from "./components/Funnal/Funnal";
 import Exportar from "./components/Exportar/Exportar";
+import Card from "./components/Ui/Card";
 
 function App() {
   return (
@@ -33,6 +34,23 @@ function App() {
             <Funnal />
             <Exportar />
           </div>
+        </div>
+        <div className="flex flex-row items-center gap-2 h-72">
+          <Card
+            titulo={"Avaliable to payout"}
+            precio={"$16.4K"}
+            textoPrecio={"$6 k will avaliable soon"}
+          />
+          <Card
+            titulo={"Avaliable to payout"}
+            precio={"$6.4K"}
+            textoPrecio={"$6 k will avaliable soon"}
+          />
+          <Card
+            titulo={"Avaliable to payout"}
+            precio={"$400"}
+            textoPrecio={"6k will avaliable soon"}
+          />
         </div>
       </main>
     </>
