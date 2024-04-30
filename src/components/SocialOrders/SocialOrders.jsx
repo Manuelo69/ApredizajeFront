@@ -19,11 +19,35 @@ const SocialOrders = ({ titulo, subtitulo }) => {
           </button>
         </div>
       </div>
-      <div className="flex flex-col justify-around w-full gap-3 h-96 items-end">
-        <Media SocialMedia={"Facebook"} />
-        <Media SocialMedia={"Instagram"} />
-        <Media SocialMedia={"Tiktok"} />
-        <Media SocialMedia={"Whatsapp"} />
+      <div className="flex flex-col justify-around w-full gap-3 h-96 items-end ">
+        <Media
+          SocialMedia={"Facebook"}
+          color1={"bg-gray-400"}
+          color2={"bg-gray-400"}
+          color3={"bg-main-green"}
+          color4={"bg-gray-400"}
+        />
+        <Media
+          SocialMedia={"Instagram"}
+          color1={"bg-gray-400"}
+          color2={"bg-main-green"}
+          color3={"bg-black"}
+          color4={"bg-black"}
+        />
+        <Media
+          SocialMedia={"Tiktok"}
+          color1={"bg-main-green"}
+          color2={"bg-main-green"}
+          color3={"bg-dark-gray"}
+          color4={"bg-darker-gray"}
+        />
+        <Media
+          SocialMedia={"Whatsapp"}
+          color1={"bg-my-gray"}
+          color2={"bg-my-gray"}
+          color3={"bg-dark-gray"}
+          color4={"bg-black"}
+        />
       </div>
     </div>
   );
