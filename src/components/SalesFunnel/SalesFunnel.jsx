@@ -18,15 +18,15 @@ const SalesFunnel = ({ titulo, subtitulo }) => {
           </button>
         </div>
       </div>
-      <div className="flex flex-row justify-center w-px-800 gap-3 h-80">
-        <Views />
+      <div className="flex flex-row justify-around w-full gap-3 h-96 content-end">
+        <Views cantidad={"24k"} />
         <Views />
         <Views />
         <Views />
         <Views />
         <Views />
       </div>
-      <div className="flex flex-row justify-around w-px-800">
+      <div className="flex flex-row justify-around text-center w-full gap-1">
         <p>Mon</p>
         <p>Tue</p>
         <p>Wed</p>
