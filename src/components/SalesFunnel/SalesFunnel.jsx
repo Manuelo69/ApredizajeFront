@@ -1,10 +1,11 @@
-const SalesFunnel = () => {
+/* eslint-disable react/prop-types */
+const SalesFunnel = ({ titulo, subtitulo }) => {
   return (
-    <div className="caja caja2">
+    <div className="flex flex-col  bg-light-gray  rounded-3xl p-3 w-px-900">
       <div className="parrafoAlto parrafo2">
         <div className="textoIzquierdo">
-          <p style="font-size: var(--text-md)">Sales Funnel</p>
-          <p style="font-size: var(--text-xs)">Total view per month</p>
+          <p>Sales Funnel</p>
+          <p>Total view per month</p>
         </div>
         <div className="centrar">
           <button className="mes">Monthly</button>

@@ -10,6 +10,7 @@ import SelectorFecha from "./components/SelectorFecha/SelectorFecha";
 import Funnal from "./components/Funnal/Funnal";
 import Exportar from "./components/Exportar/Exportar";
 import Card from "./components/Ui/Card";
+import SalesFunnel from "./components/SalesFunnel/SalesFunnel";
 
 function App() {
   return (
@@ -52,7 +53,9 @@ function App() {
             textoPrecio={"6k will avaliable soon"}
           />
         </div>
-        <div className="flex flex-row"></div>
+        <div className="flex flex-row gap-2">
+          <SalesFunnel />
+        </div>
       </main>
     </>
   );
